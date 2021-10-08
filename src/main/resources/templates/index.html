@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel = stylesheet href = "index-style.css">
 </head>
 <body>
-    <div> Hello World </div>
+
+<!--- Temporary nav bar --->
+    <span class="logo">
+        <img src="logo.jpg" alt="logo">
+    </span>
+    <div style="text-align: center">
+        <a href="" class="nav-links">HJEM</a>
+        <a href="" class="nav-links">PROBLEMET</a>
+        <a href="" class="nav-links">LØSNINGER</a>
+        <a href="" class="nav-links">OPSKRIFTER</a>
+        <a href="" class="nav-links">OM OS</a>
+    </div>
+    <div>
+        <hr style="width:100%;text-align:right;margin-left:20%;margin-top: 26px">
+    </div>
+<!--- Temporary nav bar --->
+    <div>
+
+
+        <div class="image">
+            <img src="throwing_food_out.jpeg" alt="throw">
+        </div>
+
+        <div class="column">
+            <div class="tagline">
+            Til kamp mod madspild
+            </div>
+            <div class="counter">
+                <script type="text/javascript" src="src/main/resources/js/waste-counter.js"></script>
+                <script>
+                    let kilo = 0;
+                    setInterval( function(){
+                        document.getElementById("kilo").innerHTML = (parseInt(kilo = kilo + 23));
+                    }, 1000);
+                </script>
+                <span id="kilo"></span> <span> kg madaffald mens du har været her</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="click-box-container">
+
+            <a href="" class="click-box">Hvad er problemet?</a>
+            <a href="" class="click-box">Hvad kan du gøre?</a>
+            <a href="" class="click-box">Red dine rester</a>
+
+    </div>
 
 </body>
 </html>
