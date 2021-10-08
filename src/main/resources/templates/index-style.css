@@ -3,7 +3,6 @@
     font-size: 40px;
     font-weight: bold;
     padding-left: 180px;
-
 }
 
 .nav-links {
@@ -30,9 +29,10 @@
 }
 
 .counter {
-
-    padding-left: 20%;
-    bottom: 50%;
+    padding-left: 100px;
+    font-family: Calibri, serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .click-box {
