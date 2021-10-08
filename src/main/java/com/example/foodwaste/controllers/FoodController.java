@@ -9,4 +9,21 @@ public class FoodController {
     public String index() {
         return "index";
     }
+    @GetMapping("/test")
+    public String test() {
+        return "tipPage";
+    }
+
+    @GetMapping("/tip1")
+    public String tip1() {
+        return "textBlocks/tip1";
+    }
+    @GetMapping("/tip2")
+    public String tip2() {
+        return "textBlocks/tip2";
+    }
+    @GetMapping("/tip3")
+    public String tip3() {
+        return "textBlocks/tip3";
+    }
 }
