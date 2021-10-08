@@ -9,6 +9,10 @@ public class FoodController {
     public String index() {
         return "index";
     }
+    @GetMapping("/aboutus")
+    public String aboutUs() {
+        return "About_us";
+    }
     @GetMapping("/test")
     public String test() {
         return "tipPage";

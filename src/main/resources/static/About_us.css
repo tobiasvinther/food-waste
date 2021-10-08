@@ -1,0 +1,38 @@
+.firkant {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+    bottom: 15%;
+    right: 20%;
+
+}
+.madspild {
+    width: 100%;
+}
+
+.tekst {
+    margin-top: 20%;
+    margin-left: 25%;
+    width: 20%;
+
+    display: inline-block;
+
+}
+.back-to-frontpage {
+    display: flex;
+    position: absolute;
+    width: auto;
+    border: 1px solid black;
+    left: 50%;
+    margin-top: 20px;
+}
+p#tekst-bund {
+    display: flex;
+    position: center;
+    margin-top: auto;
+    margin-left: auto;
+    width: auto;
+    bottom: auto;
+}
