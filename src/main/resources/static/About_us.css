@@ -1,38 +1,27 @@
-.firkant {
-    display: flex;
-    position: absolute;
-    width: 25%;
-    height: 50%;
-    border: 2px solid black;
-    bottom: 15%;
-    right: 20%;
+.center1 {
+    margin-left: 200px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.center2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.øvretekst{
+    color: #ff7345;
 
 }
-.madspild {
-    width: 100%;
-}
-
-.tekst {
-    margin-top: 20%;
-    margin-left: 25%;
-    width: 20%;
-
-    display: inline-block;
+.farve {
+    color: blue;
 
 }
-.back-to-frontpage {
-    display: flex;
-    position: absolute;
-    width: auto;
-    border: 1px solid black;
-    left: 50%;
-    margin-top: 20px;
+.værktøjslinje {
+    width: 200px;
+    margin-right: 100px;
+    color: #ff0f2e;
 }
-p#tekst-bund {
-    display: flex;
-    position: center;
-    margin-top: auto;
-    margin-left: auto;
-    width: auto;
-    bottom: auto;
-}
+
+
+
+
