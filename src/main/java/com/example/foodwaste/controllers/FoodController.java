@@ -13,7 +13,7 @@ public class FoodController {
     public String aboutUs() {
         return "About_us";
     }
-    @GetMapping("/test")
+    @GetMapping("/tipPage")
     public String test() {
         return "tipPage";
     }
