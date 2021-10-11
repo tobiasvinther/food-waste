@@ -59,11 +59,11 @@
 
 .click-me {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     color: #fffdf7;
-    filter: drop-shadow(0px 3px 4px black);
+    /*filter: drop-shadow(0px 3px 4px black);*/
 }
 
 .tagline {
@@ -74,14 +74,14 @@
 }
 
 .counter {
-    font-size: 22px;
+    font-size: 42px;
     font-weight: bold;
     text-align: center;
     color: #fffdf7;
-    filter: drop-shadow(0px 3px 4px black);
+    /*filter: drop-shadow(0px 3px 4px black);*/
     position: absolute;
-    bottom: 150px;
-    right: 90px;
+    bottom: 105px;
+    right: 65px;
 }
 
 .image-container {
@@ -90,7 +90,49 @@
 
 /*
 a:visited {
+    text-decoration: none!important;
+}
+
+a:link {
     text-decoration: none;
-    color: #fffdf7;
 }
  */
+
+.button {
+    border-radius: 4px;
+    background-color: #6DA34D;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 80px;
+    /*width: 350px;*/
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

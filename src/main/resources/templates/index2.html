@@ -25,7 +25,7 @@
     </div>
 
     <div class="content-large" style="text-align: right">
-        <img src="throwing_food_out.jpeg" alt="throw">
+        <img src="throwing_food_out.jpeg" alt="throw" style="filter: drop-shadow(0px 3px 4px black)">
     </div>
     <div class="content-small">
         <span class="center">
@@ -36,35 +36,38 @@
     </div>
     <div class="content-small">
         <!--- <script src="waste-counter.js"></script> --->
+        <p style="text-align: center">Kg mad smidt ud i Danmark <br>mens du har været her (gennemsnitlig værdi):</p>
             <span class="center">
+
                 <span class="image-container">
                     <img src="circle.png" alt="throw">
+
+
                     <script >
                         let kilo = 0;
                         setInterval( function(){
-                            document.getElementById("kilo").innerHTML = (parseInt(kilo = kilo + 23));
+                            document.getElementById("kilo").innerHTML = (parseInt(kilo = kilo + 23)) + " kg";
                         }, 1000);
                     </script>
-                    <span id="kilo" class="counter"></span> <span class="counter">kg mad</span>
-                    <br>
-                    <div>er blevet smidt ud mens du har været her</div>
+                    <div id="kilo" class="counter"></div>
+
                 </span>
             </span>
     </div>
 
     <div class="footer-small" style="background-color: #6da34d">
         <p class="click-me">
-            <a href="" style="text-decoration: none">Hvad er problemet?</a>
+            <a href="" style="text-decoration: none"><button class="button"><span>Hvad er problemet? </span></button></a>
         </p>
     </div>
     <div class="footer-small" style="background-color: #6da34d">
         <p class="click-me">
-            <a href="" style="text-decoration: none">Hvad kan du gøre?</a>
+            <a href="" style="text-decoration: none"><button class="button"><span>Hvad kan DU gøre? </span></button></a>
         </p>
     </div>
     <div class="footer-small" style="background-color: #6da34d">
         <p class="click-me">
-            <a href="" style="text-decoration: none">Find opskrifter</a>
+            <a href="" style="text-decoration: none"><button class="button"><span>Find opskrifter </span></button></a>
         </p>
     </div>
 
