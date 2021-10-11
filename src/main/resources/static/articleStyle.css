@@ -20,3 +20,9 @@ iframe {
     flex-direction: row;
     justify-content: space-evenly;
 }
+.articleColumn {
+
+    display: flex;
+    flex-direction: column;
+
+}
