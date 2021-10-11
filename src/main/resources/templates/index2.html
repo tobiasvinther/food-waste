@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = stylesheet th:href = "@{/index-style-new-new.css}">
+    <link rel = stylesheet href = "index-style-new-new.css">
+
+</head>
+<body style="background-color: #fffdf7">
+<div class="container">
+
+    <div class="header" style="text-align: center">
+        <!---<img src="logo1.png" alt="throw" width="80" height="40" style="display: inline">--->
+        <!--- Temporary nav bar --->
+        <span>
+            <a href="" class="nav-link">HJEM</a>
+            <a href="" class="nav-link">PROBLEMET</a>
+            <a href="" class="nav-link">LØSNINGER</a>
+            <a href="" class="nav-link">OPSKRIFTER</a>
+            <a href="" class="nav-link">OM OS</a>
+        </span>
+        <hr style="width:100%;text-align:right;margin-top: 26px">
+        <!--- Temporary nav bar --->
+    </div>
+
+    <div class="content-large" style="text-align: right">
+        <img src="throwing_food_out.jpeg" alt="throw">
+    </div>
+    <div class="content-small">
+        <span class="center">
+            <span class="tagline">
+                Sammen stopper vi madspild!
+            </span>
+        </span>
+    </div>
+    <div class="content-small">
+        <!--- <script src="waste-counter.js"></script> --->
+            <span class="center">
+                <span class="image-container">
+                    <img src="circle.png" alt="throw">
+                    <script >
+                        let kilo = 0;
+                        setInterval( function(){
+                            document.getElementById("kilo").innerHTML = (parseInt(kilo = kilo + 23));
+                        }, 1000);
+                    </script>
+                    <span id="kilo" class="counter"></span> <span class="counter">kg mad</span>
+                    <br>
+                    <div>er blevet smidt ud mens du har været her</div>
+                </span>
+            </span>
+    </div>
+
+    <div class="footer-small" style="background-color: #6da34d">
+        <p class="click-me">
+            <a href="" style="text-decoration: none">Hvad er problemet?</a>
+        </p>
+    </div>
+    <div class="footer-small" style="background-color: #6da34d">
+        <p class="click-me">
+            <a href="" style="text-decoration: none">Hvad kan du gøre?</a>
+        </p>
+    </div>
+    <div class="footer-small" style="background-color: #6da34d">
+        <p class="click-me">
+            <a href="" style="text-decoration: none">Find opskrifter</a>
+        </p>
+    </div>
+
+
+
+
+    <!--- <div class="footer-small">
+        <p class="click-me"> Hvad kan du gøre?</p>
+        <p class="click-me"> Hvad kan du gøre?</p>
+        <p class="click-me"> Hvad kan du gøre?</p>
+    </div>--->
+    <!--- <div class="footer-small" style="text-align: center">Find opskrifter?</div> --->
+        <!--- <span>
+            <a href="" class="click-me">Hvad er problemet?</a>
+            <a href="" class="click-me">Hvad kan du gøre?</a>
+            <a href="" class="click-me">Find opskrifter</a>
+        </span>--->
+
+     </div>
+
+ </div>
+
+ </body>
+ </html>
