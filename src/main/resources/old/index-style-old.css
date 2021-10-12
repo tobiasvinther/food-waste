@@ -1,0 +1,59 @@
+.tagline {
+    font-family: Calibri, serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 180px;
+}
+
+.nav-links {
+    color: dimgrey;
+    padding: 14px;
+    text-decoration: none;
+    top: 20px;
+    position: relative;
+    font-size: 22px;
+    margin-top: 16px;
+}
+
+.image {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.logo {
+    display: inline-flex;
+    width:   110%;
+    height:  110%;
+    margin-top: -10%;
+    margin-left: -10%;
+}
+
+.counter {
+    padding-left: 100px;
+    font-family: Calibri, serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.click-box {
+    background-color: seagreen;
+    height: 200px;
+    width: 240px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.click-box-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
