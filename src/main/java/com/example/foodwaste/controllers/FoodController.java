@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class FoodController {
     @GetMapping("/")
     public String index() {
-        return "index2";
+        return "index";
     }
 }
