@@ -13,6 +13,10 @@ public class FoodController {
     public String aboutUs() {
         return "About_us";
     }
+    @GetMapping("/info")
+    public String info(){
+        return "Info";
+    }
     @GetMapping("/tipPage")
     public String test() {
         return "tipPage";
