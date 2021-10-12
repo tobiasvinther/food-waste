@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" x>
+<html lang="en" dir="ltr">
   <head>
     <meta content="text/html" charset="utf-8">
     <title>Recipe</title>
     <link rel = "stylesheet" href = "recipeStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "recipe.js"></script>
   </head>
   <body>
   <div style="text-align: center">
@@ -27,9 +28,12 @@
 
     <div class="centerBox">
       <div class="searchContainer">
-          <input type="text" placeholder="Search.." />
-          <button type="submit">Search</button>
+          <input type="text"  id = "search-text" placeholder="Search.." />
+          <button type="submit" id = "search-button">Search</button>
       </div>
+    </div>
+    <div class="catchText">
+      <div id="search-content"></div>
     </div>
   </div>
 
