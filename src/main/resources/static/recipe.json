@@ -1,4 +1,6 @@
-[{"id":"1","name": "Lasagne"},
+[
+  {"id":"1","name": "Lasagne"},
   {"id": "2","name": "Cheesecake"},
   {"id": "3","name": "Chocolate cake"},
-  {"id":"4","name": "Vegan lasagne"}]
+  {"id":"4","name": "Vegan lasagne"}
+]
