@@ -1,5 +1,9 @@
 package com.example.foodwaste.controllers;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Jonatan
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -34,4 +38,10 @@ public class FoodController {
     public String tip3() {
         return "textBlocks/tip3";
     }
+
+    @GetMapping("/Recipe")
+    public String search(){
+        return "recipe";
+    }
+
 }
