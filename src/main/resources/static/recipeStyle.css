@@ -35,7 +35,9 @@ html,body{
   font-size: 40px;
   font-weight: bold;
 }
-
+.searchContainer{
+  display: flex;
+}
 .searchContainer button:hover {
   background: #546A76;
 }
@@ -58,4 +60,9 @@ html,body{
   margin-right: 0;
   font-size: 17px;
   width: 75%;
+}
+.search-result{
+  text-align: center;
+  font-family: Calibri, serif;
+  font-size: 20px;
 }

@@ -11,14 +11,14 @@ $(document).ready(function () {
                     if (!$("#search-text").val() == "") {
                         for (var i = 0; i < data.length; i++) {
                             if ((data[i].name).toLowerCase().includes($("#search-text").val().toLowerCase())) {
-                                searchResult += "<div id=res_" + data[i].id + "><h1>" + data[i].name + "</h1></div>"
+                                searchResult += "<div id=res_" + data[i].id + ">" + data[i].name + "</div>"
                             }
                         }
                     } else{
-                        searchResult = "<h1>Please search for something</h1>";
+                        searchResult = "<p>Please search for something</p>";
                     }
                     if (searchResult == "") {
-                        searchResult += "<h1>Nothing was found</h1>"
+                        searchResult += "<p>Nothing was found</p>"
                     }
                     $("#search-content").html(searchResult);
                 }
