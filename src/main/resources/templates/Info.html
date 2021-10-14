@@ -6,51 +6,38 @@
     <link rel="stylesheet" th:href="@{Info.css}">
 </head>
 <body>
-<div>
-    <table class="center2">
-    <thead>
-    <tr>
-        <td class="værktøjslinje">Forside</td>
-        <td class="værktøjslinje">Info</td>
-        <td class="værktøjslinje">Tips</td>
-        <td class="værktøjslinje">About us</td>
-    </tr>
-    </thead>
-    </table>
+<<body>
+<div id="outer">
+    <div class="øverstelinje">
+        <table class="center1">
+            <thead>
+            <tr>
+                <td class="værktøjslinje">Forside</td>
+                <td class="værktøjslinje">Info</td>
+                <td class="værktøjslinje">Tips</td>
+                <td class="værktøjslinje">About us</td>
+            </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div class="aboutus">
+        <h3 class="farve">Info</h3>
+    </div>
+
+    <div class="float-container">
+        <div class="flex-child">
+            <p class="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="flex-child:first-child">
+            <img src="foodwaste1.jpg" alt="foodwaste1" style="width: 300px">
+        </div>
+    </div>
+    <div style="text-align: center">
+        <button class="button">Forside</button>
+    </div>
 </div>
-<table class="center1">
-    <tbody>
-    <tr>
-        <td>
-            <h1 class="farve">Info
-            </h1>
-        </td>
-
-        <td>
-        </td>
-    </tr>
-
-    <tr>
-        <td>
-            <p1 class="p1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p1>
-        </td>
-
-        <td>
-            <img src="foodwaste1.jpg" alt="foodwaste1" style="width: 400px">
-        </td>
-    </tr>
-
-    <tr>
-        <td style="text-align: center">
-            <button class="button">Forside</button>
-        </td>
-
-        <td>
-        </td>
-    </tr>
     </tbody>
 </table>
 </html>
