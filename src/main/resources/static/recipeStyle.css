@@ -1,17 +1,3 @@
-html,body{
-  background-color: #FFFDF7;
-  height: 100%;
-  margin: 0;
-}
-.nav-bar{
-  padding-top: 20px;
-}
-.nav-links {
-  color: dimgrey;
-  text-decoration: none;
-  font-size: 22px;
-  padding: 14px;
-}
 .wrapper{
   background-color: #FFFDF7;
   margin: auto;

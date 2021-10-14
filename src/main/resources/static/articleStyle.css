@@ -25,11 +25,6 @@ iframe {
     display: flex;
     flex-direction: column;
 }
-a {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
 .center-cropped {
     width: 256px;
     height: 180px;
