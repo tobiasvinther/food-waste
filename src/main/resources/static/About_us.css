@@ -45,6 +45,14 @@
     padding: 10px 20px;
     font-size: 12px;
 }
+bottom-button {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
 .farve {
     color: #4CAF50;
     font-family: "Times New Roman";
@@ -60,7 +68,6 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-
 }
 
 
