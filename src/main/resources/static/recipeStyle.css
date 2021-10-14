@@ -19,6 +19,14 @@
   font-size: 40px;
   font-weight: bold;
 }
+.description-text{
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+
+}
 .searchContainer{
   display: flex;
 }
@@ -46,7 +54,12 @@
   width: 75%;
 }
 .search-result{
+  margin-top: 5%;
   text-align: center;
   font-family: Calibri, serif;
   font-size: 20px;
+}
+#search-content{
+  display: inline-block;
+  text-align: left;
 }
