@@ -1,9 +1,5 @@
 package com.example.foodwaste.controllers;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> Jonatan
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 

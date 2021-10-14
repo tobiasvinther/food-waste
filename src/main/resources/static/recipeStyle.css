@@ -3,16 +3,14 @@ html,body{
   height: 100%;
   margin: 0;
 }
+.nav-bar{
+  padding-top: 20px;
+}
 .nav-links {
-  color:#0F0A0A ;
-  padding: 14px;
+  color: dimgrey;
   text-decoration: none;
-  top: 20px;
-  position: relative;
   font-size: 22px;
-  margin-top: 16px;
-  font-family: Calibri, serif;
-  text-shadow: 2px 2px 4px #546A76;
+  padding: 14px;
 }
 .wrapper{
   background-color: #FFFDF7;
