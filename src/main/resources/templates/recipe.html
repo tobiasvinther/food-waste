@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="text/html" charset="utf-8">
+    <title>Recipe</title>
+    <link rel = "stylesheet" href = "recipeStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "recipe.js"></script>
+  </head>
+  <body>
+  <div class= "nav-bar" style="text-align: center">
+    <a href="/" class="nav-links">HJEM</a>
+    <a href="Info" class="nav-links">PROBLEMET</a>
+    <a href="tipPage" class="nav-links">LØSNINGER</a>
+    <a href="recipe" class="nav-links">OPSKRIFTER</a>
+    <a href="About_us" class="nav-links">OM OS</a>
+  </div>
+  <div>
+    <hr style="width:100%;text-align:right;margin-top: 26px">
+  </div>
+
+  <div class = "wrapper">
+    <div class = "catchText">
+      <p>
+        Waste less, eat your mess
+      </p>
+    </div>
+
+    <div class="centerBox">
+      <div class="searchContainer">
+          <input type="text"  id = "search-text" placeholder="Search.." />
+          <button type="submit" id = "search-button">Search</button>
+      </div>
+    </div>
+    <div class = "search-result">
+      <div id = "search-content"></div>
+    </div>
+  </div>
+
+  </body>
+</html>

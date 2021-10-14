@@ -34,4 +34,10 @@ public class FoodController {
     public String tip3() {
         return "textBlocks/tip3";
     }
+
+    @GetMapping("/Recipe")
+    public String search(){
+        return "recipe";
+    }
+
 }
