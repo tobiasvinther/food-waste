@@ -63,3 +63,18 @@
   display: inline-block;
   text-align: left;
 }
+.bottom-button{
+  width: 60%;
+  bottom: 1%;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+
+}
+.index-button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+}
