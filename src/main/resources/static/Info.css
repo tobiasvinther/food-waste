@@ -2,21 +2,8 @@
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-
 }
-.øverstelinje {
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 0;
-    width: 60%;
-}
-.center1 {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0;
-    width: 90%;
-}
-.float-container {
+.flex-container {
     display: flex;
 }
 .float-child {
@@ -56,19 +43,10 @@
     margin-right: 500px;
     margin-top: 50px;
 }
-.øvretekst{
-    color: #ff7345;
-
-}
 .farve {
     color: #4CAF50;
     font-family: "Times New Roman";
     font-size: 30px
+}
 
-}
-.værktøjslinje {
-    width: 200px;
-    margin-right: 100px;
-    color: black;
-}
 
