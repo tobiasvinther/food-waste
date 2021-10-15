@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <title>Madspild-About us</title>
     <link rel="stylesheet" th:href="@{About_us.css}">
+    <link rel = "stylesheet" href = "baseStyle.css">
 </head>
 <body>
-<div id="outer">
-    <div class="øverstelinje">
-        <table class="center1">
-            <thead>
-                <tr>
-                    <td class="værktøjslinje">Forside</td>
-                    <td class="værktøjslinje">Info</td>
-                    <td class="værktøjslinje">Tips</td>
-                    <td class="værktøjslinje">About us</td>
-                </tr>
-            </thead>
-        </table>
-    </div>
+<!---nav bar --->
+<div class= "nav-bar">
+    <a href="/" class="nav-links">HJEM</a>
+    <a href="info" class="nav-links">PROBLEMET</a>
+    <a href="tipPage" class="nav-links">LØSNINGER</a>
+    <a href="Recipe" class="nav-links">OPSKRIFTER</a>
+    <a href="aboutus" class="nav-links">OM OS</a>
+</div>
+<div>
+    <hr style="width:100%;text-align:right;margin-top: 26px">
+</div>
+<!---nav bar --->
 
+<div id="outer">
     <div class="aboutus">
         <h3 class="farve">About us</h3>
     </div>
@@ -30,19 +31,19 @@
         </div>
 
         <div class="flex-child:first-child">
-            <img src="skraldespand.jpg" alt="skraldespand" style="width: 450px">
+            <img src="food-waste.jpg" alt="foodwaste" style="width: 450px">
         </div>
     </div>
 
     <div id="yikes" style="position: absolute;bottom: 20%; width: 20%; margin-left: 40%; height: 3%; display: flex">
         <div style="flex: 33%">
-        <img class="media" src="instagramicon.png" style="width: 40%; height: 40%">
+            <img class="media" src="facebookicon.png" style="width: 40%; height: 40%">
         </div>
         <div style="flex: 33%">
             <img class="media" src="instagramicon.png" style="width: 40%; height: 40%">
         </div>
         <div style="flex: 33%">
-        <img class="media" src="instagramicon.png" style="width: 40%; height: 40%">
+            <img class="media" src="tweetericon.png" style="width: 40%; height: 40%">
         </div>
     </div>
 

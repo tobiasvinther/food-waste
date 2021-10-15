@@ -4,20 +4,24 @@
     <meta content="text/html" charset="utf-8">
     <title>Recipe</title>
     <link rel = "stylesheet" href = "recipeStyle.css">
+    <link rel = "stylesheet" href = "baseStyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src = "recipe.js"></script>
   </head>
   <body>
-  <div class= "nav-bar" style="text-align: center">
+
+  <!---nav bar --->
+  <div class= "nav-bar">
     <a href="/" class="nav-links">HJEM</a>
-    <a href="Info" class="nav-links">PROBLEMET</a>
+    <a href="info" class="nav-links">PROBLEMET</a>
     <a href="tipPage" class="nav-links">LØSNINGER</a>
-    <a href="recipe" class="nav-links">OPSKRIFTER</a>
-    <a href="About_us" class="nav-links">OM OS</a>
+    <a href="Recipe" class="nav-links">OPSKRIFTER</a>
+    <a href="aboutus" class="nav-links">OM OS</a>
   </div>
   <div>
     <hr style="width:100%;text-align:right;margin-top: 26px">
   </div>
+  <!---nav bar --->
 
   <div class = "wrapper">
     <div class = "catchText">
@@ -26,15 +30,29 @@
       </p>
     </div>
 
+    <div class ="description-text">
+      <p>
+        Søg efter madvare for at finde opskrifter til at hjælpe dig med inspirationen og være med til at mindske madspildet
+      </p>
+    </div>
     <div class="centerBox">
       <div class="searchContainer">
           <input type="text"  id = "search-text" placeholder="Search.." />
           <button type="submit" id = "search-button">Search</button>
       </div>
     </div>
+
+
     <div class = "search-result">
+      <div class ="description-text">
+        <p>
+          Søgeresultater vises nedenfor
+        </p>
+      </div>
       <div id = "search-content"></div>
     </div>
+
+
   </div>
 
   </body>
